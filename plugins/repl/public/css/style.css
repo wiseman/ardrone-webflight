@@ -1,0 +1,42 @@
+.repl {
+    width: 100%;
+    font-size: 14px;
+    font-family: monospace;
+    color: white;
+    height: 3.5em;
+    margin: 0.5em;
+}
+
+.repl .jquery-console-inner {
+    width: 100%;
+    background: #333;
+    margin: 0.5em;
+    height: 3.5em;
+    overflow: hidden;
+}
+
+.repl .jquery-console-prompt-box {
+}
+
+.repl .jquery-console-focus span.jquery-console-cursor {
+    background: #fefefe;
+    font-weight: bold
+}
+
+.repl .jquery-console-message-error {
+    color: #ef0505;
+    font-weight: bold;
+    padding: 0.1em;
+}
+
+.repl .jquery-console-message-value {
+    padding: 0.1em;
+}
+
+.repl .jquery-console-message-type {
+    padding: 0.1em;
+}
+
+.repl .jquery-console-prompt-label {
+    font-weight: bold
+}

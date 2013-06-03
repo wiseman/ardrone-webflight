@@ -1,12 +1,11 @@
+body {
+    margin: 0px 0px;
+}
+
 .header-container {
-     position: absolute;
-     top: 0;
-     left: 0;
-     right: 0;
-     height: 20px;
      background: black;
      color: white;
-     padding: 5px 10px;
+     padding: 0px 0px;
 }
 
 .header-container .brand {
@@ -14,11 +13,11 @@
 }
 
 .main-container {
-    position: absolute;
-    top: 30px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
+    /* position: absolute; */
+    /* top: 30px; */
+    /* left: 0px;*/
+    /* right: 0px; */
+    /* bottom: 0px;*/
 }
 
 #controls {
@@ -26,11 +25,6 @@
 }
 
 #glasspane {
-        position: absolute;
-        left: 0px;
-        right: 0px;
-        top: 0px;
-        bottom: 0px;
         z-index: 100;
 
     -webkit-user-select: none; // webkit (safari, chrome) browsers
